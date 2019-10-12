@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<ProyectFolderPath>/home/maldo56/Documents/CreatorWorkSpace</ProyectFolderPath>
+	<TemplateFolderPath>/home/maldo56/eclipse-workspace/CreadorEntidades/Resources/Templates</TemplateFolderPath>
+	<Package>test.source</Package>
+	
+	<Objects>
+		<Entity name="Usuario">
+			<Attribute name="username" type="String" />
+			<Attribute name="password" type="String" />
+			<Attribute name="email" type="String" />
+		</Entity>
+		<Entity name="Rol">
+			<Attribute name="name" type="String" />
+			<Attribute name="permissions" type="int" />
+		</Entity>
+	</Objects>
+</Configuration>
